@@ -15,7 +15,7 @@ function Footer(props) {
             <ul className="footer-icons">
                 {socialLinks.map(socialLink => (
                     <li>
-                        <a href={socialLink.href} target="_blank" className="footer-icon">
+                        <a href={socialLink.href} target="_blank" className="footer-icon" rel="noreferrer">
                             <i className={socialLink.icon}></i>
                         </a>
                     </li>
